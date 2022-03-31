@@ -1,0 +1,17 @@
+[package]
+name = "sdcar_pcl"
+version = "0.2.0"
+authors = ["Nick Hortovanyi <nick.hortovanyi@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sdcar_types = {path="../sdcar_types", version = "^0.2.0"}
+nalgebra = "^0.30"
+chrono="^0.4"
+parquet="^11.0.0"
+arrow="^11.0.0"
+rayon = "^1.5"
+rand = "^0.8"
+dashmap = "^5.1"

@@ -1,0 +1,17 @@
+[package]
+name = "sdcar_vision"
+version = "0.2.0"
+authors = ["Nick Hortovanyi <nick.hortovanyi@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# opencv = {path= "../../dev/external/opencv-rust", version = "^0.63", default-features = false, features =["calib3d", "highgui", "imgcodecs", "imgproc", "dnn"] }
+opencv = {version = "^0.63", default-features = false, features =["calib3d", "highgui", "imgcodecs", "imgproc", "dnn"] }
+# opencv = "^0.63"
+nalgebra = "^0.30"
+rand = "^0.8"
+rayon = "^1.5"
+sdcar_types = {path="../sdcar_types", version = "^0.2.0"}
+sdcar_pcl = {path="../sdcar_pcl", version = "^0.2.0"}

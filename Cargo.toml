@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "sdcar_types",
+  "sdcar_pcl",
+  "sdcar_vision",
+  "sdcar_calib",
+  "lidar_image_calib",
+  "image_parquet_rectify"
+]

@@ -1,0 +1,14 @@
+[package]
+name = "image_parquet_rectify"
+version = "0.1.0"
+authors = ["Nick Hortovanyi <nick.hortovanyi@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# opencv = {path= "../../dev/external/opencv-rust", version = "^0.63", default-features = false, features =["imgcodecs","imgproc"] }
+opencv = {version = "^0.63", default-features = false, features =["imgcodecs","imgproc"] }
+nalgebra = "^0.30"
+sdcar_types = {path="../sdcar_types", version = "^0.2.0"}
+sdcar_vision = {path="../sdcar_vision", version = "^0.2.0"}
