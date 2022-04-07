@@ -22,3 +22,11 @@
 **/._.DS_Store
 ._*
 **/._*
+
+**/*.mkv
+*.mkv
+
+**/*.mp4
+*.mp4
+
+**/*-checkpoint.ipynb
